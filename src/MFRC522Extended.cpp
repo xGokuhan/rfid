@@ -1012,12 +1012,12 @@ void MFRC522Extended::PICC_DumpToSerial(TagInfo *tag)
 		case PICC_TYPE_ISO_14443_4:
 		case PICC_TYPE_MIFARE_DESFIRE:
 			PICC_DumpISO14443_4(tag);
-			Serial.println(F("Dumping memory contents not implemented for that PICC type."));
+			Serial.println(F("Dumping memory contents not implemented for that PICC type.1"));
 			break;
 		case PICC_TYPE_ISO_18092:
 		case PICC_TYPE_MIFARE_PLUS:
 		case PICC_TYPE_TNP3XXX:
-			Serial.println(F("Dumping memory contents not implemented for that PICC type."));
+			Serial.println(F("Dumping memory contents not implemented for that PICC type.2"));
 			break;
 		
 		case PICC_TYPE_UNKNOWN:
